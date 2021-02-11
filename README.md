@@ -7,6 +7,7 @@
  * [Repository purpose](#repository-purpose)
  * [Machine Learning models](#machine-learning-models) 
  * [Deep Learning models](#deep-learning-models)
+ * [Code](#code)
  * [References](#references)
 
 # Repository purpose
@@ -23,7 +24,8 @@ For Spanish multi-class sentiment classification, we use the same ML algorithms 
 Regarding the Deep Learning Transformer-based models developed, the models used aretrained while minimizing Binary Cross-Entropy loss function value. Besides, during the traininghyperparameters are optimized, selecting those with the lowest loss value in the development set. Four Transformer-based models are used, two multilingual (XLM-RoBERTa and DistilBERTmultilingual) and two monolingual (DistilRoBERTa and DistilBERT fine-tuned for NLI andSTS Benchmark). For TASS three multilingual models (XLM-RoBERTa, DistilBERT multilingual, and DistilBERT multilingualfine-tuned for NLI, STS Benchmark and Quora Ranking), and the monolingual Spanish versionof BERT (BETO) uncased are trained. Models are trained while minimizing the Categorical Cross-Entropy. The [Simpletransformers library](https://simpletransformers.ai/) is used to train all the models. 
 
 
-The Google Collab notebooks in sst2_models folder show the code used for trainig both apporaches. Besides, during the training the results are logged in Weights and Biases: https://wandb.ai/huertas_97/SST2-train?workspace=user-huertas_97 and https://wandb.ai/huertas_97/SST-2-best_set/overview?workspace=user-huertas_97. 
+# Code
+The Google Collab notebooks in sst2_models folder and tass_models show the code used for trainig both apporaches for both datasets. Besides, during the training the results are logged in Weights and Biases: https://wandb.ai/huertas_97
 
 
 
@@ -31,3 +33,5 @@ The Google Collab notebooks in sst2_models folder show the code used for trainig
 # References
 
 Richard Socher et al. “Recursive Deep Models for Semantic Compositionality Over a Sen-timent Treebank”. In:Proceedings of the 2013 Conference on Empirical Methods in NaturalLanguage Processing. Seattle, Washington, USA: Association for Computational Linguis-tics, 2013, pp. 1631–1642.url:https://www.aclweb.org/anthology/D13-1170
+
+Julio Villena-Román y Sara Lana-Serrano y Eugenio Martínez-Cámara y José CarlosGonzález-Cristóbal. “TASS - Workshop on Sentiment Analysis at SEPLN”. In:Proce-samiento del Lenguaje Natural50.0 (2013), pp. 37–44.issn: 1989-7553.url:http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4657.
