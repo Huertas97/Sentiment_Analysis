@@ -34,6 +34,6 @@ Richard Socher et al. “Recursive Deep Models for Semantic Compositionality Ove
 
 Julio Villena-Román y Sara Lana-Serrano y Eugenio Martínez-Cámara y José CarlosGonzález-Cristóbal. “TASS - Workshop on Sentiment Analysis at SEPLN”. In:Proce-samiento del Lenguaje Natural50.0 (2013), pp. 37–44.issn: 1989-7553.url:http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4657.
 
-Maarten Grootendorst.BERTopic: Leveraging BERT and c-TF-IDF to create easily inter-pretable topics.Version v0.4.2. 2020. doi:10.5281/zenodo.4430182.
+Maarten Grootendorst.BERTopic: Leveraging BERT and c-TF-IDF to create easily inter-pretable topics.Version v0.4.2. 2020. doi: [10.5281/zenodo.4430182](https://zenodo.org/record/4430182) .
 
 
