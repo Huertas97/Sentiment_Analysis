@@ -1,4 +1,4 @@
-# Sentiment_Analysis
+# Sentiment and Topic Analysis
 
 **Author**: Álvaro Huertas García 
 
@@ -12,7 +12,7 @@
 
 # Repository purpose
 
-In this repository, we present the results obtained after developing Machine Learning and Deep Learning Transformer-based models for predicting a text’s polarity for English and Spanish language. 
+In this repository, we present the results obtained after developing Machine Learning and Deep Learning Transformer-based models for predicting a text’s polarity for English and Spanish language. In addition, in `Topic_model` you can find the code used to train the topic modeling using BERTopic. 
 
 # Machine Learning models
 
@@ -33,3 +33,7 @@ The Google Collab notebooks in ´sst2_models´ folder and ´tass_models´ show t
 Richard Socher et al. “Recursive Deep Models for Semantic Compositionality Over a Sen-timent Treebank”. In:Proceedings of the 2013 Conference on Empirical Methods in NaturalLanguage Processing. Seattle, Washington, USA: Association for Computational Linguis-tics, 2013, pp. 1631–1642.url:https://www.aclweb.org/anthology/D13-1170
 
 Julio Villena-Román y Sara Lana-Serrano y Eugenio Martínez-Cámara y José CarlosGonzález-Cristóbal. “TASS - Workshop on Sentiment Analysis at SEPLN”. In:Proce-samiento del Lenguaje Natural50.0 (2013), pp. 37–44.issn: 1989-7553.url:http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/4657.
+
+Maarten Grootendorst.BERTopic: Leveraging BERT and c-TF-IDF to create easily inter-pretable topics.Version v0.4.2. 2020.doi:10.5281/zenodo.4430182.
+
+
