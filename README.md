@@ -25,9 +25,7 @@ Regarding the Deep Learning Transformer-based models developed, the models used 
 
 
 # Code
-The Google Collab notebooks in sst2_models folder and tass_models show the code used for trainig both apporaches for both datasets. Besides, during the training the results are logged in Weights and Biases: https://wandb.ai/huertas_97
-
-
+The Google Collab notebooks in ´sst2_models´ folder and ´tass_models´ show the code used for trainig both apporaches for both datasets. During the training the results are logged in Weights and Biases: https://wandb.ai/huertas_97 SST2 data is available in ´sst2_data´ folder. TASS data is not available due to privacy policy. Nevertheless you can ask for the data in [TASS-SEPLN](http://tass.sepln.org/tass_data/download.php). The code used to merge the data from all different TASS competitions since 2012 to 2019 and how the tweets are preprocessed is shown in ´TASS_data_extraction.pynb´. 
 
 
 # References
